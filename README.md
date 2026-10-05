@@ -159,5 +159,14 @@ The project includes:
 
 - This project meets all PP5 requirements.
 
+## Credits & Acknowledgements
+
+- Code Institute walkthroughs, project structure and assessment criteria.  
+- Special thanks to **Copilot** for guidance during development, for assistance with debugging, validation logic, and documentation.  
+
+## Code Authorship
+
+I wrote all the code in this project. I used documentation, tutorials, and guidance from Code Institute, but I typed, adapted,
+and understood every line myself. I did not copy any code from other projects or repositories.
 
 
