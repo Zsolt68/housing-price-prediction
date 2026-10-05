@@ -37,7 +37,7 @@ This project demonstrates the full predictive analytics workflow:
 The app allows users to enter property details and receive a predicted house price.
 
 ## 📂 Project Structure
-
+```
 housing-price-prediction/
 │
 ├── app.py
@@ -52,7 +52,7 @@ housing-price-prediction/
     ├── 01_data_cleaning.ipynb
     ├── 02_feature_engineering.ipynb
     └── 03_modelling_evaluation.ipynb
-    
+   ``` 
 
 ## 🧠 Machine Learning Workflow
 
