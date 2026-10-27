@@ -16,6 +16,8 @@ This project showcases practical machine learning development, clear documentati
 
 ## 📘 Project Overview
 
+The app allows users to enter property details and receive a predicted house price.
+
 This project demonstrates the full predictive analytics workflow:
 
 - Data cleaning and preprocessing
@@ -33,8 +35,133 @@ This project demonstrates the full predictive analytics workflow:
 - Streamlit application
 
 - Heroku deployment
+  
 
-The app allows users to enter property details and receive a predicted house price.
+## Dataset Content
+
+The Ames Housing Dataset contains information about residential property sales in Ames, Iowa.
+
+The dataset contains 1,460 records and 80 explanatory variables describing different property characteristics.
+
+The target variable is:
+
+- SalePrice
+
+Examples include:
+
+- OverallQual
+- GrLivArea
+- GarageArea
+- TotalBsmtSF
+- YearBuilt
+- Neighborhood
+
+The dataset contains both numerical and categorical variables, making it suitable for predictive modelling and feature analysis.
+
+
+## Business Requirements
+
+### Business Requirement 1
+
+The client wants to predict residential property sale prices using historical house data.
+
+### Business Requirement 2
+
+The client wants to identify which property features most impact sale price.
+
+### Business Requirement 3
+
+The client requires an interactive dashboard that allows users to explore the dataset, model performance and predictions.
+
+## User Stories
+
+### User Story 1
+
+As a stakeholder, I want to predict the sale price of a property, so that I can estimate its market value.
+
+### User Story 2
+
+As a stakeholder, I want to understand which features influence house prices, so that I can make informed property decisions.
+
+### User Story 3
+
+As a stakeholder, I want to evaluate model performance, so that I can determine whether the predictions are reliable.
+
+### User Story 4
+
+As a stakeholder, I want to explore relationships between features and SalePrice, so that I can identify key market drivers.
+
+## Hypotheses and Validation
+
+### Hypothesis 1
+
+Properties with larger living areas tend to have higher sale prices.
+
+Validation: Correlation analysis and scatter plots comparing GrLivArea and SalePrice.
+
+### Hypothesis 2
+
+Properties with higher overall quality ratings tend to achieve higher sale prices.
+
+Validation: Correlation analysis and model feature importance.
+
+### Hypothesis 3
+
+Newer properties tend to sell for higher prices than older properties.
+
+Validation: Analysis of YearBuilt and SalePrice relationships.
+
+## Machine Learning Business Case
+
+### Business Objective
+
+Predict residential property sale prices using historical housing data.
+
+### Machine Learning Task
+
+Regression.
+
+### Target Variable
+
+SalePrice.
+
+### Success Metric
+
+The model will be considered successful if it achieves:
+
+- R² ≥ 0.75 on the training set
+- R² ≥ 0.75 on the test set
+
+### Model Outputs
+ 
+The model returns a predicted SalePrice based on property characteristics provided by the user.
+
+### Learning Method
+
+Supervised Machine Learning.
+
+## Dashboard Design
+
+### Project Summary
+
+Provides an overview of the project, dataset and business requirements.
+
+### Correlation Study
+
+Displays feature relationships and correlations with SalePrice.
+
+### Hypothesis Validation
+
+Presents project hypotheses and supporting evidence.
+
+### House Price Prediction
+
+Allows users to enter house characteristics and receive a predicted sale price.
+
+### ML Performance
+
+Displays model evaluation metrics and prediction performance.
+
 
 ## 📂 Project Structure
 ```
@@ -114,6 +241,12 @@ It displays:
 
 - confirmation that the model loads correctly
 
+## Technologies Used
+
+## Testing
+
+## Deployment
+
 ### Price Prediction Form
 Users can enter property details such as:
 
@@ -151,18 +284,16 @@ The project includes:
 
 ## ✔ Final Notes
 
-- The prediction button error is known and acceptable.
+- Known Issue: The current prediction workflow requires further refinement to ensure full compatibility between the training pipeline and the deployed application.
 
 - The model verification section works correctly.
 
 - The app deploys successfully on Heroku.
 
-- This project meets all PP5 requirements.
-
 ## Credits & Acknowledgements
 
 - Code Institute walkthroughs, project structure and assessment criteria.  
-- Special thanks to **Copilot** for guidance during development, for assistance with debugging, validation logic, and documentation.  
+- Special thanks to **Copilot** for guidance during development, for assistance with debugging, validation logic, and documentation.
 
 ## Code Authorship
 
