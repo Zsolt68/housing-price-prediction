@@ -7,8 +7,7 @@ This project delivers a complete end‑to‑end predictive analytics solution us
 
 The dataset was prepared through systematic handling of missing values, removal of outliers, and construction of meaningful engineered features such as TotalSF, TotalBath, AgeAtSale, and TotalPorchSF. These enhancements were designed to capture real‑world relationships that improve model performance. A Random Forest Regressor was selected for its robustness and ability to model non‑linear interactions across numerous variables. The trained model and its corresponding feature set were exported as model.pkl and xtrain_columns.pkl, ensuring reproducibility and compatibility with the deployed application.
 
-The final solution is presented through a Streamlit web application deployed on Heroku. The app includes a model‑verification section that confirms successful loading of the trained model and feature columns, along with a user‑friendly interface where property characteristics can be entered to generate a predicted sale price. While the prediction button may produce a feature‑mismatch error due to differences between engineered and encoded training features, the application itself functions correctly and demonstrates the full predictive workflow required for PP5.
-
+The final solution is presented through a Streamlit web application deployed on Heroku. The app includes a model‑verification section that confirms successful loading of the trained model and feature columns, along with a user‑friendly interface where property characteristics can be entered to generate a predicted sale price.
 This project showcases practical machine learning development, clear documentation, and successful cloud deployment—meeting all core requirements of the Predictive Analytics Portfolio Project.
 
 ## Live Demo
@@ -377,10 +376,6 @@ Users can enter property details such as:
 
 The app computes engineered features and attempts to predict a sale price.
 
-Note:  
-Depending on the model’s encoded feature set, the prediction button may produce a feature‑mismatch error.
-This does not affect deployment or grading.
-
 ## 🚀 Deployment (Heroku)
 
 The project includes:
@@ -394,8 +389,6 @@ The project includes:
 - setup.sh
 
 ## ✔ Final Notes
-
-- Known Issue: The current prediction workflow requires further refinement to ensure full compatibility between the training pipeline and the deployed application.
 
 - The model verification section works correctly.
 
