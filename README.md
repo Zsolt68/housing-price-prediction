@@ -320,17 +320,25 @@ Data cleaning, feature engineering and modelling tasks were mixed across noteboo
 Refactored the project into a structured workflow:
 
 01_data_cleaning.ipynb
+
 ↓
+
 cleaned_train.csv
 
 02_feature_engineering.ipynb
+
 ↓
+
 engineered_train.csv
 
 03_modelling_evaluation.ipynb
+
 ↓
+
 model.pkl
+
 ↓
+
 xtrain_columns.pkl
 
 ## Deployment
