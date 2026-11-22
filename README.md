@@ -285,6 +285,38 @@ It displays:
 
 ## Technologies Used
 
+### Languages
+
+- Python
+- Markdown
+
+### Libraries
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- joblib
+
+### Frameworks
+
+- Streamlit
+
+### Deployment
+
+- Heroku
+
+### Version Control
+
+- Git
+- GitHub
+
+### Development Environment
+
+- VS Code
+- Jupyter Notebook
+
 ## Testing
 
 ## Manual Testing
