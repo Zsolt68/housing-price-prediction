@@ -266,6 +266,20 @@ It displays:
 | Microsoft Edge | ✅ Pass |
 | Mozilla Firefox | ✅ Pass |
 
+## Notebook Testing
+
+The following notebooks were executed successfully from start to finish without errors:
+
+- 01_data_cleaning.ipynb
+- 02_feature_engineering.ipynb
+- 03_modelling_evaluation.ipynb
+
+Outputs generated:
+
+- cleaned_train.csv
+- engineered_train.csv
+- model.pkl
+- xtrain_columns.pkl
 
 ## Deployment
 
