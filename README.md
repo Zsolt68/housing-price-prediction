@@ -258,6 +258,15 @@ It displays:
 | Model Loading | Load model.pkl | Model loads without error | Successful | ✅ Pass |
 | Feature Columns Loading | Load xtrain_columns.pkl | Columns load without error | Successful | ✅ Pass |
 
+## Browser Compatibility Testing
+
+| Browser | Result |
+|----------|----------|
+| Google Chrome | ✅ Pass |
+| Microsoft Edge | ✅ Pass |
+| Mozilla Firefox | ✅ Pass |
+
+
 ## Deployment
 
 ### Price Prediction Form
