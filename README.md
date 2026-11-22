@@ -341,6 +341,21 @@ model.pkl
 
 xtrain_columns.pkl
 
+## Deployment Testing
+
+Tested the deployed Heroku application after deployment.
+
+Verified functionality:
+
+- Dashboard navigation
+- Project Summary page
+- Correlation Study page
+- Hypothesis Validation page
+- ML Performance page
+- House Price Prediction page
+
+All functionality operated as expected.
+
 ## Deployment
 
 ### Price Prediction Form
