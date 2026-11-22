@@ -239,6 +239,8 @@ performance.
 
 ### Actual vs Predicted Analysis
 
+![Actual vs Predicted](docs/images/actual_vs_predicted.png)
+
 The Random Forest model was evaluated by comparing
 actual sale prices against predicted sale prices.
 The resulting scatter plot demonstrated a strong
