@@ -266,6 +266,10 @@ These findings support the original project
 hypotheses that property quality and living area
 are among the strongest drivers of house value.
 
+The feature importance chart below shows the ten most influential variables identified by the trained model.
+ 
+![Feature Importance](docs/images/feature_importance.png)
+
 ## 🖥️ Streamlit Application
 
 The Streamlit app includes:
