@@ -281,6 +281,58 @@ Outputs generated:
 - model.pkl
 - xtrain_columns.pkl
 
+## Bugs Encountered and Fixed
+
+### Missing matplotlib Dependency on Heroku
+
+**Issue**
+
+The deployed application failed with:
+
+ModuleNotFoundError: No module named 'matplotlib'
+
+**Fix**
+
+Added the required dependency to requirements.txt and redeployed the application.
+
+---
+
+### Prediction Feature Alignment
+
+**Issue**
+
+The prediction page required feature columns matching the training dataset.
+
+**Fix**
+
+Exported training columns using xtrain_columns.pkl and aligned prediction inputs using reindex().
+
+---
+
+### Notebook Workflow Structure
+
+**Issue**
+
+Data cleaning, feature engineering and modelling tasks were mixed across notebooks.
+
+**Fix**
+
+Refactored the project into a structured workflow:
+
+01_data_cleaning.ipynb
+↓
+cleaned_train.csv
+
+02_feature_engineering.ipynb
+↓
+engineered_train.csv
+
+03_modelling_evaluation.ipynb
+↓
+model.pkl
+↓
+xtrain_columns.pkl
+
 ## Deployment
 
 ### Price Prediction Form
