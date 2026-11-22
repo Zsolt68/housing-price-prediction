@@ -432,6 +432,30 @@ All functionality operated as expected.
 
 ## Deployment
 
+The application was deployed using Heroku.
+
+### Deployment Steps
+
+1. Push the project repository to GitHub.
+2. Create a new Heroku application.
+3. Connect the GitHub repository to Heroku.
+4. Configure the Python buildpack.
+5. Deploy the application.
+6. Verify successful deployment.
+
+### Live Application
+
+[House Price Prediction App](https://housing-price-prediction-26f018f55fc4.herokuapp.com/)
+
+### Deployment Files
+
+The project includes:
+
+- Procfile
+- .python-version
+- requirements.txt
+- setup.sh
+
 ### Price Prediction Form
 Users can enter property details such as:
 
