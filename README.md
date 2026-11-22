@@ -237,6 +237,33 @@ The model exceeded the project success criterion
 of R² ≥ 0.75, indicating strong predictive
 performance.
 
+### Actual vs Predicted Analysis
+
+The Random Forest model was evaluated by comparing
+actual sale prices against predicted sale prices.
+The resulting scatter plot demonstrated a strong
+relationship between predicted and actual values,
+supporting the model's ability to generalise to
+unseen data.
+
+### Feature Importance Analysis
+
+Feature importance scores from the Random Forest
+model were used to identify the variables with
+the greatest influence on house price prediction.
+
+The most influential features included:
+
+- OverallQual
+- GrLivArea
+- TotalSF
+- GarageCars
+- GarageArea
+
+These findings support the original project
+hypotheses that property quality and living area
+are among the strongest drivers of house value.
+
 ## 🖥️ Streamlit Application
 
 The Streamlit app includes:
