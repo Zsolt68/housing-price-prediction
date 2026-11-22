@@ -245,6 +245,19 @@ It displays:
 
 ## Testing
 
+## Manual Testing
+
+| Feature | Test Performed | Expected Result | Actual Result | Status |
+|----------|----------|----------|----------|----------|
+| Navigation Menu | Open each dashboard page | Correct page loads | Correct page loads | ✅ Pass |
+| Project Summary Page | Open page | Project overview displayed | Project overview displayed | ✅ Pass |
+| Correlation Study Page | Open page | Correlation table and chart displayed | Correlation table and chart displayed | ✅ Pass |
+| Hypothesis Validation Page | Open page | Hypotheses and conclusions displayed | Hypotheses and conclusions displayed | ✅ Pass |
+| ML Performance Page | Open page | Model metrics displayed | Model metrics displayed | ✅ Pass |
+| Prediction Page | Enter default values and click Predict Price | Predicted house price returned | Predicted house price returned | ✅ Pass |
+| Model Loading | Load model.pkl | Model loads without error | Successful | ✅ Pass |
+| Feature Columns Loading | Load xtrain_columns.pkl | Columns load without error | Successful | ✅ Pass |
+
 ## Deployment
 
 ### Price Prediction Form
