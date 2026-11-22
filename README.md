@@ -221,6 +221,22 @@ Two files were saved:
 
 The above files are loaded by the Streamlit app.
 
+## Machine Learning Model Evaluation
+
+The Random Forest Regressor was evaluated using a
+validation dataset.
+
+### Evaluation Metrics
+
+| Metric | Value |
+|----------|----------|
+| MAE | 18,240 |
+| R² Score | 0.868 |
+
+The model exceeded the project success criterion
+of R² ≥ 0.75, indicating strong predictive
+performance.
+
 ## 🖥️ Streamlit Application
 
 The Streamlit app includes:
