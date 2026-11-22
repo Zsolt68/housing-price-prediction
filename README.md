@@ -283,6 +283,22 @@ It displays:
 
 - confirmation that the model loads correctly
 
+### Price Prediction Form
+
+Users can enter property details such as:
+
+- Lot area
+- Living area
+- Basement size
+- Porch sizes
+- Year built
+- Bathrooms
+- Garage area
+
+The app computes engineered features and generates a
+predicted house sale price using the trained Random
+Forest model.
+
 ## Technologies Used
 
 ### Languages
@@ -454,37 +470,6 @@ The project includes:
 - Procfile
 - .python-version
 - requirements.txt
-- setup.sh
-
-### Price Prediction Form
-Users can enter property details such as:
-
-- Lot area
-
-- Living area
-
-- Basement size
-
-- Porch sizes
-
-- Year built
-
-- Bathrooms
-
-- Garage area
-
-The app computes engineered features and attempts to predict a sale price.
-
-## 🚀 Deployment (Heroku)
-
-The project includes:
-
-- Procfile
-
-- .python-version
-
-- requirements.txt
-
 - setup.sh
 
 ## ✔ Final Notes
