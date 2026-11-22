@@ -433,10 +433,17 @@ The project includes:
 
 ## ✔ Final Notes
 
-- The model verification section works correctly.
-
-- The app deploys successfully on Heroku.
-
+- The notebook workflow was successfully refactored into separate
+  data cleaning, feature engineering and modelling stages.
+- The trained Random Forest model achieved an R² score of 0.868,
+  exceeding the project success criterion of R² ≥ 0.75.
+- The model verification section loads and validates the exported
+  model and training feature columns successfully.
+- The Streamlit dashboard provides data exploration, hypothesis
+  validation, model evaluation and house price prediction features.
+- The application deploys successfully on Heroku, and all dashboard
+  pages were tested successfully.
+  
 ## Credits & Acknowledgements
 
 - Code Institute walkthroughs, project structure and assessment criteria.  
