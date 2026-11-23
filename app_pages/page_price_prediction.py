@@ -111,8 +111,8 @@ market analysis.
     if st.button("Predict Price"):
         prediction = model.predict(df)[0]
         st.success(
-    f"Estimated Sale Price: ${prediction:,.0f}"
-)
+            f"Estimated Sale Price: ${prediction:,.0f}"
+        )
 
         st.markdown(f"""
 ### Prediction Interpretation

@@ -40,4 +40,3 @@ elif page == "ML Performance":
 
 elif page == "House Price Prediction":
     page_price_prediction()
-    
