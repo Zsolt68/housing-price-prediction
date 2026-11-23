@@ -292,19 +292,28 @@ Feature importance scores from the Random Forest
 model were used to identify the variables with
 the greatest influence on house price prediction.
 
+The analysis showed that property quality and overall
+living space were the strongest drivers of house value.
+
 The most influential features included:
 
 - OverallQual
-- GrLivArea
 - TotalSF
-- GarageCars
+- AgeAtSale
+- GrLivArea
+- LotArea
 - GarageArea
+- YearRemodAdd
+- BsmtFinSF1
+- YearBuilt
+- TotalBath
 
-These findings support the original project
-hypotheses that property quality and living area
-are among the strongest drivers of house value.
+These findings support the original project hypotheses,
+particularly that larger homes and higher-quality
+properties tend to achieve higher sale prices.
 
-The feature importance chart below shows the ten most influential variables identified by the trained model.
+The feature importance chart below shows the ten most
+influential variables identified by the trained model.
 
  
 ![Feature Importance](docs/images/feature_importance.png)
