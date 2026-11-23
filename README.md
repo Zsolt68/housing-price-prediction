@@ -165,23 +165,39 @@ Displays model evaluation metrics and prediction performance.
 
 ### Project Summary
 
-![Project Summary](docs/images/project_summary.png)
+![Project Summary](docs/images/project_summary_1.png)
+![Project Summary](docs/images/project_summary_2.png)
+![Project Summary](docs/images/project_summary_3.png)
 
 ### Correlation Study
 
-![Correlation Study](docs/images/correlation_study.png)
+![Correlation Study](docs/images/correlation_study_1.png)
+![Correlation Study](docs/images/correlation_study_2.png)
+![Correlation Study](docs/images/correlation_study_3.png)
 
 ### Hypothesis Validation
 
-![Hypothesis Validation](docs/images/hypothesis_validation.png)
+![Hypothesis Validation](docs/images/hypothesis_validation_1.png)
+![Hypothesis Validation](docs/images/hypothesis_validation_2.png)
+![Hypothesis Validation](docs/images/hypothesis_validation_3.png)
+![Hypothesis Validation](docs/images/hypothesis_validation_4.png)
 
 ### ML Performance
 
-![ML Performance](docs/images/ml_performance.png)
+![ML Performance](docs/images/ml_performance_1.png)
+![ML Performance](docs/images/ml_performance_2.png)
+![ML Performance](docs/images/ml_performance_3.png)
+![ML Performance](docs/images/ml_performance_4.png)
+
 
 ### House Price Prediction
 
-![House Price Prediction](docs/images/prediction_page.png)
+![House Price Prediction](docs/images/prediction_page_1.png)
+![House Price Prediction](docs/images/prediction_page_2.png)
+![House Price Prediction](docs/images/prediction_page_3.png)
+![House Price Prediction](docs/images/prediction_page_4.png)
+![House Price Prediction](docs/images/prediction_page_5.png)
+![House Price Prediction](docs/images/prediction_page_6.png)
 
 
 ## 📂 Project Structure
