@@ -161,6 +161,28 @@ Allows users to enter house characteristics and receive a predicted sale price.
 
 Displays model evaluation metrics and prediction performance.
 
+## Dashboard Pages
+
+### Project Summary
+
+![Project Summary](docs/images/project_summary.png)
+
+### Correlation Study
+
+![Correlation Study](docs/images/correlation_study.png)
+
+### Hypothesis Validation
+
+![Hypothesis Validation](docs/images/hypothesis_validation.png)
+
+### ML Performance
+
+![ML Performance](docs/images/ml_performance.png)
+
+### House Price Prediction
+
+![House Price Prediction](docs/images/prediction_page.png)
+
 
 ## 📂 Project Structure
 ```
